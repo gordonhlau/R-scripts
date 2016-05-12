@@ -1,5 +1,5 @@
 #Paleo BioClim Variables R Script
-#convert monthly means for min temp, max temp, and precip into the 19 bioclimatic variables
+#input monthly raster layers for min temp, max temp, and precip to output 19 rasters for the 19 bioclimatic variables
 
 library("dismo")
 library("raster")
