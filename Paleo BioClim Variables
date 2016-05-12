@@ -3,7 +3,7 @@
 
 library("dismo")
 library("raster")
-#get mean values for min temp
+#get raster layers for min temp
 setwd("//gromit.mvz.berkeley.edu/GISDataPortal/Climate/Paleo/CMIP5/MIROC_midH_tn")
 mrmidtn1 <- raster("mrmidtn1.tif")
 mrmidtn2 <- raster("mrmidtn2.tif")
@@ -18,7 +18,7 @@ mrmidtn10 <- raster("mrmidtn10.tif")
 mrmidtn11 <- raster("mrmidtn11.tif")
 mrmidtn12 <- raster("mrmidtn12.tif")
 tmin <- stack(mrmidtn1, mrmidtn2, mrmidtn3, mrmidtn4, mrmidtn5, mrmidtn6, mrmidtn7, mrmidtn8, mrmidtn9, mrmidtn10, mrmidtn11, mrmidtn12)
-#get mean values for max temp
+#get raster layers for max temp
 setwd("//gromit.mvz.berkeley.edu/GISDataPortal/Climate/Paleo/CMIP5/MIROC_midH_tx")
 mrmidtx1 <- raster("mrmidtx1.tif")
 mrmidtx2 <- raster("mrmidtx2.tif")
@@ -33,7 +33,7 @@ mrmidtx10 <- raster("mrmidtx10.tif")
 mrmidtx11 <- raster("mrmidtx11.tif")
 mrmidtx12 <- raster("mrmidtx12.tif")
 tmax <- stack(mrmidtx1, mrmidtx2, mrmidtx3, mrmidtx4, mrmidtx5, mrmidtx6, mrmidtx7, mrmidtx8, mrmidtx9, mrmidtx10, mrmidtx11, mrmidtx12)
-#get mean values for precip
+#get raster layers for precip
 setwd("//gromit.mvz.berkeley.edu/GISDataPortal/Climate/Paleo/CMIP5/MIROC_midH_pr")
 mrmidpr1 <- raster("mrmidpr1.tif")
 mrmidpr2 <- raster("mrmidpr2.tif")
