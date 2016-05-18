@@ -49,7 +49,7 @@ mrmidpr11 <- raster("mrmidpr11.tif")
 mrmidpr12 <- raster("mrmidpr12.tif")
 prec <- stack(mrmidpr1, mrmidpr2, mrmidpr3, mrmidpr4, mrmidpr5, mrmidpr6, mrmidpr7, mrmidpr8, mrmidpr9, mrmidpr10, mrmidpr11, mrmidpr12)
 #get bioclim variables
-setwd("//gromit.mvz.berkeley.edu/GISDataPortal/Climate/Paleo/CMIP5")
+setwd("C:/Users/GIS/Documents/gordon/BioClim")
 bioclim_data <- biovars(prec, tmin, tmax)
 #show bioclim variables
 bioclim_data
